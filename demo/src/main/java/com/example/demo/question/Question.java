@@ -9,9 +9,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 import com.example.demo.answer.Answer;
+import com.example.demo.user.SiteUser;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -37,5 +39,10 @@ public class Question {
 	
 	@OneToMany(mappedBy = "question", cascade = CascadeType.REMOVE) // 하나의 Question이 삭제되면 그에 따른 Answer 모두 삭제되도록 하였음
 	private List<Answer> answerList;
+
+	@ManyToOne
+	private SiteUser author;
+	
+	private LocalDateTime modifyDate;
 
 }

@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 import com.example.demo.question.Question;
+import com.example.demo.user.SiteUser;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -30,4 +31,9 @@ public class Answer {
     @ManyToOne // 하나의 Question에 여러 개의 Answer가 달릴 수 있는 상황
     private Question question;
    
+	@ManyToOne
+	private SiteUser author;
+	
+	private LocalDateTime modifyDate;
+    
 }
