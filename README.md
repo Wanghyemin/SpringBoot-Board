@@ -2,7 +2,7 @@
 
 ### 📕 교재
 
-점프 투 스프링부트 교재를 따라하며 클론코딩 <br/>
+점프 투 스프링부트 교재를 따라하며 클론코딩 
 [Jump to SpringBoot](https://wikidocs.net/book/7601)
 1. SpringBoot 소개 및 설명
 2. SpringBoot Gradle을 사용한 게시판 클론코딩
