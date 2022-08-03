@@ -10,17 +10,19 @@
 <br/>
 
 ### ⚙ 개발환경
-Language : Java
-Framework : SpringBoot Gradle
-Library : Thymeleaf, BootStrap
-DB Engine : H2 Database Engine
+- Language : `java 1.8` 
+- Framework : `SpringBoot Gradle`
+- Library : `Thymeleaf`, `BootStrap`
+- DB Engine : `H2 Database`
 
 <br/>
 
 ### 📑 정리
-MVC Model 2를 바탕으로 Entity, Repository, Service, Form, Controller, Html로 클래스를 모듈화하여 <br/>
-H2 DataBase를 사용하여 Model에서 Controller를 거쳐 View로 이동하는 데이터의 흐름에 대한 상세한 설명을 덧붙이고 있다.<br/>
-CRUD 기능을 토대로 답변, 내비게이션 바, 페이징, 일련번호, 답변개수, 로그인 및 회원가입, 보안과 같은 기능들을 추가하였다.<br/>
+**MVC Model 2**를 사용하여 Model에서 Controller를 거쳐 View로 이동하는 데이터의 흐름에 대한 상세한 설명을 덧붙이고 있다.<br/>
+각 기능들을 Entity, Repository, Service, Form, Controller, Html로 모듈화하여 구조화된 프로젝트를 직접 구현하는데 의의가 있다.<br/><br/>
+**CRUD 기능**을 토대로 답변, 내비게이션 바, 페이징, 일련번호, 답변개수, 로그인 및 회원가입, 보안과 같은 기능들을 추가하였다.<br/>
+**Thymeleaf**를 활용하여 데이터의 도출과 중복을 줄인 화면단 구현을 할 수 있었고, <br/>
+**BootStrap**을 이용하여 전반적인 외관과 디자인을 빠르고 쉽게 구현할 수 있었다.<br/>
 프로젝트의 기본인 게시판구현에 있어 정확한 설명을 붙이고 있어, 기본을 다지는 데 큰 도움이 된다.
 
 <br/>
